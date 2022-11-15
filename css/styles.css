@@ -78,71 +78,8 @@ p {
     line-height: 1.6rem;
 }
 
-/*.****** CAROUSEL *******.*/
-.student-image-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: inherit;
-    width: inherit;
-}
-
-.carousel {
-    max-width: 800px;
-    text-align: center;
-    background-color: var(--black-alpha-color);
-    overflow-x: hidden;
-    margin: 2rem auto;
-    padding: 2rem 0;
-}
-
-.carousel input {
-    display: none;
-}
-
-.carousel label {
-    display: inline-block;
-    width: 0.75rem;
-    height: 0.75rem;
-    border-radius: 50%;
-    border: medium solid var(--grey-light-color);
-    cursor: pointer;
-    margin: 0 .25rem;
-}
-
-.carousel .slides {
-    display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 400%;
-    list-style: none;
-    transition: transform 0.5s ease-in-out;
-}
-
-#slide-1:checked ~ .slides {
-    transform: translateX(0%);
-}
-#slide-2:checked ~ .slides {
-    transform: translateX(-25%);
-}
-#slide-3:checked ~ .slides {
-    transform: translateX(-50%);
-}
-#slide-4:checked ~ .slides {
-    transform: translateX(-75%);
-}
-
-#slide-1:checked ~ .slides-nav label#circle-1, 
-#slide-2:checked ~ .slides-nav label#circle-2, 
-#slide-3:checked ~ .slides-nav label#circle-3, 
-#slide-4:checked ~ .slides-nav label#circle-4 {
-    background-color: var(--grey-light-color);
-}
-
 /*.****** CONTACT FORM *******.*/
-.container-form{
-    padding-bottom: 25px;
-}
+
 .contact-form {
     margin: 2rem auto;
     padding: 1rem;
@@ -494,7 +431,6 @@ p {
 /***********footer***********/
 footer {
     width: 100%;
-    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-evenly;
