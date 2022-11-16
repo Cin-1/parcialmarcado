@@ -397,6 +397,23 @@ p {
     margin-bottom: 1rem;
 }
 
+/*.****** OFERTS *******.*/
+
+.oferts {
+    padding-top: 60px;
+    display: flex;
+}
+
+.oferts-element {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    }
 .services > .container > .section-title {
     padding-bottom: 2rem;
     text-align: center;
